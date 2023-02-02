@@ -2,7 +2,7 @@
 
 A simple Python script and a Grafana dashboard to monitor your smartmeter by the P1 port.
 
-[![](grafana-overview.png) | with=200](grafana-overview.png)
+[![](grafana-overview.png)](grafana-overview.png)
 
 # Details
 * Python 3
@@ -37,3 +37,6 @@ cp env_example .env
 # 6. Edit configuration and start application
 # systemctl start p1-influxdb
 ```
+
+# Contribution
+Please open an issue or a pull request with questions and/or suggestions.
