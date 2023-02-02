@@ -1,0 +1,14 @@
+# Python virtual env:
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+share
+pyvenv.cfg
+.venv
+
+# Local .env:
+.env

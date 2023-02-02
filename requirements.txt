@@ -1,0 +1,2 @@
+smeterd @ git+https://github.com/sandnabba/smeterd.git@S34U18-support
+influxdb-client

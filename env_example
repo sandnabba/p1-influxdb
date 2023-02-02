@@ -1,0 +1,13 @@
+# .env exapmle
+# Serial values for Vattenfall S34U18 meter
+
+SERIAL_PORT="/dev/serial/by-id/my-serial-device"
+SERIAL_BAUDRATE=115200
+SERIAL_BYTESIZE=8
+SERIAL_PARITY="N"
+SERIAL_STOPBITS=1
+SERIAL_XONXOFF=""
+INFLUXDB_URL="http://url-or-ip:8086"
+INFLUXDB_TOKEN="abcdefghijklmnopqrstuvwxyz"
+INFLUXDB_ORG="my_org"
+INFLUXDB_BUCKET="my_bucket"

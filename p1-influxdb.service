@@ -1,0 +1,13 @@
+[Unit]
+Description=p1-influxdb
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+EnvironmentFile=/opt/p1-influxdb/.env
+ExecStart=/opt/p1-influxdb/bin/python /opt/p1-influxdb/p1-influxdb.py
+
+[Install]
+WantedBy=multi-user.target
